@@ -3,4 +3,7 @@
   hosts: localhost
   tasks: 
   - name: install httpd
-    yum: name=httpd state=present 
+    yum: name=httpd state=present
+ 
+  - name: creating files
+    file: name=mygit dest=/root 
