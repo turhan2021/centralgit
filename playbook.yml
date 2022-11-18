@@ -1,6 +1,6 @@
 ---
 - name: creating playbook
-  hosts: localhost
+  hosts: 10.0.0.51
   tasks: 
   - name: install httpd
     yum: name=httpd state=present
