@@ -6,4 +6,4 @@
     yum: name=httpd state=present
  
   - name: creating files
-    file: name=mygit path=/root state=present
+    file: name=mygit path=/root state=directory
