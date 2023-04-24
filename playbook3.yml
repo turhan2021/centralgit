@@ -8,4 +8,7 @@
     yum: 
      name: httpd
      state: installed
-  
+  - name: install sshd
+    yum:
+     name: openssh
+     state: installed
